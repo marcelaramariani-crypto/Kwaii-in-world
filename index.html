@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja Kawaii 🌸</title>
+  <style>
+    /* Cores e fontes kawaii */
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color: #ffe4f0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #ff99cc;
+      text-align: center;
+      padding: 2rem 1rem;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+
+    .produto {
+      background-color: white;
+      border-radius: 1rem;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .produto:hover {
+      transform: scale(1.05);
+    }
+
+    .produto img {
+      max-height: 150px;
+      object-fit: contain;
+      margin-bottom: 1rem;
+    }
+
+    .produto h2 {
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+    }
+
+    .produto p {
+      color: #ff66b2;
+      font-weight: bold;
+      margin: 0.5rem 0;
+    }
+
+    .produto a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: #ff66b2;
+      color: white;
+      text-decoration: none;
+      border-radius: 999px;
+      transition: background-color 0.2s;
+    }
+
+    .produto a:hover {
+      background-color: #ff3399;
+    }
+
+    footer {
+      background-color: #ff99cc;
+      text-align: center;
+      padding: 1rem;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌸 Loja Kawaii 🌸</h1>
+    <p>Produtos fofinhos que você vai amar!</p>
+  </header>
+
+  <main>
+    <div class="produto">
+      <img src="https://i.imgur.com/8Km9tLL.png" alt="Pelúcia de Gatinho">
+      <h2>Pelúcia de Gatinho</h2>
+      <p>R$ 79,90</p>
+      <a href="https://shopee.com.br/produto1" target="_blank">Comprar na Shopee</a>
+    </div>
+    <div class="produto">
+      <img src="https://i.imgur.com/1H6qN5m.png" alt="Caneca Fofa">
+      <h2>Caneca Fofa</h2>
+      <p>R$ 39,90</p>
+      <a href="https://shopee.com.br/produto2" target="_blank">Comprar na Shopee</a>
+    </div>
+    <div class="produto">
+      <img src="https://i.imgur.com/LQhVZ3e.png" alt="Caderno Kawaii">
+      <h2>Caderno Kawaii</h2>
+      <p>R$ 29,90</p>
+      <a href="https://shopee.com.br/produto3" target="_blank">Comprar na Shopee</a>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Loja Kawaii - Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
